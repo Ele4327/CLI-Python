@@ -1,3 +1,4 @@
+![](https://github.com/Ele4327/CLI-Python/blob/main/img/CLI%20Project.png)
 
 👋 Hello Devs
 # CLI Python
@@ -29,12 +30,36 @@ To run the program it is as simple as put in console:
 ### Main Function
 > def main():
 
+```
+Hola, Bienvenido al CLI
+Acá tienes una lista de los archivos txt disponibles en el directorio actual
+
+hola.txt
+Test.txt
+
+Directorio actual: /mnt/d/Desktop/Code/Me/Codigo Facilito/BootCamp Introducción a la Programación
+Qué deseas hacer?
+1. Listar los archivos txt
+2. Leer documento.
+3. Eliminar documento
+4. Trabajar en otro directorio
+0. Salir del CLI
+```
+
 ### Subfunctions
 
-def eliminate_file():
+eliminate_file():
+
+> Remove a specific file in the actual directory
 
 def list_files():
 
+> List all txt files in the specified directory or in the actual directory
+
 def list_prncpl():
 
+> List automatically files when opens CLI
+
 def read_files():
+
+> Show content of the specified file
